@@ -11,7 +11,7 @@ function product_add_featured_meta_box() {
         'featured_meta_box',
         'Featured',
         'render_featured_meta_box',
-        'product',
+        'product',  // change to custom post type
         'side',
         'high'
     );
